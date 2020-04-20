@@ -1,0 +1,215 @@
+.cart{
+    padding: 0.88rem 0.24rem 0.98rem;
+}
+.shop-header{
+    width: 100%;
+    height: 0.78rem;
+    border-bottom: 1px solid #f6f6f4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+}
+.ctt{
+    width: 94%;
+    font-size: 0.36rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.shop-i{
+    line-height: 0.78rem;
+    margin: 0 auto;
+}
+.shop-i::before{
+    content: "\e618";
+    font-family: iconfont,sans-serif;
+    float: left;
+    line-height: 0.78rem;
+    padding:0 0.2rem 0 0;
+}
+.shop-i::after{
+    content: "编辑";
+    font-family: iconfont,sans-serif;
+    float: right;
+    font-size: 0.28rem;
+    line-height: 0.78rem;
+}
+/* 坐标开始 */
+.shop-map{
+    width: 94%;
+    height: 0.7rem;
+    margin: 0 auto;
+    padding-top:0.78rem;
+
+}
+.coord{
+    font-size: 0.28rem;
+    line-height: 0.7rem;
+}
+.coord::after{
+    content: "\e63c";
+    font-family: iconfont,sans-serif;
+    float: right;
+}
+.ept{
+    width: 100%;
+    height: 0.1rem;
+    margin: 0 auto;
+    background: rgb(236, 236, 236);
+}
+/*收货时间开始*/
+.tipt{
+    width: 94%;
+    height: 0.78rem;
+    margin: 0 auto;
+}
+.tipt-left{
+    font-size: 0.3rem;
+    line-height: 0.78rem;
+    float: left;
+}
+.tipt-right{
+    color: #379EDE;
+    font-size: 0.3rem;
+    line-height: 0.78rem;
+    float: right;
+}
+.tipt-right::before{
+    content:"\e63c";
+    color: #222;
+    font-family: iconfont,sans-serif;
+    float: right;
+}
+/* 自营开始 */
+.sfst{
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.sfst-1{
+    width: 100%;
+    height: 0.7rem;
+    padding: 0 0.2rem;
+    border-bottom: 1px solid #f6f6f4;
+    font-size: 0.3rem;
+    line-height: 0.7rem;
+    box-sizing: border-box;
+}
+.sfst-1 i{
+    font-size: 0.4rem;
+}
+.comdy{
+    width: 100%;
+    height: 3rem;
+    padding: 0.6rem 0.2rem 0;
+    border-bottom: 1px solid #f5f5f5;
+    box-sizing: border-box;
+}
+.ctl{
+    line-height: 2rem;
+    font-size: 0.4rem;
+    margin-right: 0.1rem;
+    float: left;
+}
+.ctl1{
+    font-size: 0.4rem;
+    margin-right: 0.1rem;
+    float: left;
+}
+.bl-ch{
+    width: 2rem;
+    height: 2.3rem;
+    float: left;
+    margin: auto;
+}
+.bl-ch img{
+    width: 90%;
+}
+.comdy-r{
+    width: 3.5rem;
+    float: right;
+    overflow: hidden;
+}
+.c-text1{
+    font-size: 0.3rem;
+    line-height: 0.35rem;
+}
+.c-text2{
+    font-size: 0.38rem;
+    color: #FF9201;
+}
+.num{
+    height: 0.6rem;
+    float: left;
+    line-height: 0.6rem
+}
+
+.minus{
+    margin-right: 0.1rem;
+    float: left;
+    font-size: 0.4rem;
+}
+.aug{
+    margin-left: 0.1rem;
+    float: left;
+    font-size: 0.4rem;
+}
+.num span{
+    font-size: 0.3rem;
+    float: left;
+}
+.total{
+    width: 100%;
+    height: 0.6rem;
+    padding: 0 0.2rem;
+    font-size: 0.3rem;
+    line-height: 0.6rem;
+    box-sizing: border-box;
+}
+.ept1{
+    width: 100%;
+    height: 1.8rem;
+    margin: 0 auto;
+    background: rgb(236, 236, 236);
+    background: #fff;
+}
+/* 全选开始 */
+.check{
+    width: 100%;
+    height: 0.78rem;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #f6f6f4;
+    position: fixed;
+    bottom: 0.92rem;
+    background: #fff;
+}
+.check-left{
+    font-size: 0.34rem;
+    line-height: 0.78rem;
+    float: left;
+}
+.check-left span:nth-child(3){
+    font-size: 0.3rem;
+    color: #444;
+}
+.check-left span:nth-child(4){
+    color: #FF9201;
+}
+.check-right{
+    width: 1.2rem;
+    height: 0.5rem;
+    float: right;
+    background: #777777;
+    font-size: 0.3rem;
+    line-height: 0.5rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    margin: 0.15rem auto 0;
+}
+.check-right a{
+    color:#fff;
+}
+.check-right.active{
+    background: #FF9201;
+}

@@ -1,0 +1,225 @@
+.header{
+    width: 100%;
+    height: 45px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: white;
+    padding:0 0.225rem;
+    box-sizing: border-box;
+    text-align: center;
+    z-index: 999;
+}
+.header-left{
+    width: 40px;
+    height: 100%;
+    float: left;
+    position: absolute;
+    left: 0.225rem;
+    top: 0;
+}
+.header-left i{
+    line-height: 45px;
+    font-size: 20px;
+}
+.header-right{
+    width: 40px;
+    height: 100%;
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 0.225rem;
+    top: 0;
+}
+.header-right i{
+    line-height: 45px;
+    font-size: 20px;
+}
+.header span{
+    line-height: 45px;
+    font-size: 15px;
+    text-align: center;
+
+}
+.middle{
+    margin-top: 45px;
+    width: 100%;
+    overflow: hidden;
+    /* box-sizing: border-box; */
+    position: relative;
+}
+.middle img{
+    display: block;
+    margin: 0 auto;
+    width: 6.5rem;
+    height: 6.5rem;
+}
+.dot{
+    width: 0.61rem;
+    height: 0.1rem;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top:6.2rem;
+    left: 0;
+    right: 0;
+    margin:auto;
+}
+.dot li{
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    background-color: #dddddd;
+    float: left;
+}
+.middle-two{
+    margin: 0 auto;
+    width: 6.5rem;
+    height: 35px;
+    background-color: white;
+    padding-left: 0.2rem;
+    padding-right: 0.225rem;
+    box-sizing: border-box;
+}
+.middle-two-one{
+    font-size: 26px;
+    color: #FFB34E;
+    line-height: 35px;
+    float: left;
+}
+.middle-two-two{
+    font-size: 12px;
+    color: #747474;
+    float: left;
+    margin: 12px 5px 0px 5px;
+}
+.middle-two-three{
+    padding: 0px 8px;
+    height: 18px;
+    line-height: 18px;
+    background: #FFB34E;
+    color: #fff;
+    float: left;
+    font-size: 12px;
+    margin-top: 9px;
+    box-sizing: border-box;
+}
+.middle-bottom{
+    width: 6.5rem;
+    height: 1.06rem;
+    margin: 0 auto;
+    padding: 0.1rem 0.225rem 0 0.2rem;
+    line-height: 1.5;
+    font-size: 0.36rem;
+    background-color: white;
+    box-sizing: border-box;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:3 ;
+    text-overflow: ellipsis;
+}
+.bottom{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+    /* margin-bottom: 200px; */
+}
+.bottom-one{
+    width: 6.5rem;
+    height: 45px;
+    line-height: 45px;
+    font-size: 15px;
+    text-align: center;
+    border-bottom: 1px solid #F9F9F9;
+    margin: 0 auto;
+    background-color: white;
+}
+.bottom-two{
+    width: 6.5rem;
+    overflow: hidden;
+    padding: 10px 0.2rem;
+    background: #fff;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.bottom-two-one{
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    line-height: 30px;
+}
+.bottom-two-one span,.bottom-two-two span{
+    float: left;
+    color: #8A8D93;
+}
+.bottom-two-two{
+    font-size: 14px;
+    width: 100%;
+    float: left;
+    line-height: 30px;
+}
+.bottom-three{
+    width: 6.5rem;
+    height: 45px;
+    line-height: 45px;
+    font-size: 15px;
+    text-align: center;
+    border-bottom: 1px solid #F9F9F9;
+    margin: 10px auto 0;
+    background-color: white;
+    box-sizing: border-box;
+}
+.detail li{
+    width: 100%;
+}
+.detail li img{
+    width: 100%;
+}
+.footer{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    background-color: white;
+}
+.footer li:nth-child(2),.footer li:first-child{
+    width: 17%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+}
+.footer li:nth-child(3){
+    width: 33%;
+    height: 100%;
+    background: #111111;
+    color: #EEEEEE;
+    float: left;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+}
+.footer li:last-child{
+    width: 33%;
+    height: 100%;
+    background: #FFB34E;
+    color: #EEEEEE;
+    float: left;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+}
+.footer li:nth-child(2) i,.footer li:first-child i{
+    display: inline-block;
+    margin-top: 7px;
+    font-size: 28px;
+    color: #999;
+}
+.footer li:nth-child(2) span,.footer li:first-child span{
+    width: 100%;
+    display: inline-block;
+    font-size: 14px;
+    color: #999;
+}

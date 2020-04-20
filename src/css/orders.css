@@ -1,0 +1,221 @@
+.orders{
+    padding :0.88rem 0.24rem 0.98rem;
+}
+.shop-header{
+    width: 100%;
+    height: 0.78rem;
+    border-bottom: 1px solid #f6f6f4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+}
+.ctt1{
+    width: 94%;
+    font-size: 0.36rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.ctt1 a{
+    line-height: 0.78rem;
+    color: #222;
+    float: left;
+}
+.ctt1 a:nth-child(2){
+    line-height: 0.78rem;
+    float: none;
+}
+.shop-i1{
+    line-height: 0.78rem;
+    margin: 0 auto 0 -0.4rem;
+}
+/* 已发货开始 */
+.deliver{
+    width: 100%;
+    overflow: hidden;
+    padding: 0.2rem 0.2rem;
+    background: #636572;
+    box-sizing: border-box;
+}
+.yet{
+    width: 100%;
+    height: 0.4rem;
+    color: #fff;
+    font-size: 0.3rem;
+    line-height: 0.4rem;
+}
+.yet i{
+    font-size: 0.5rem;
+}
+.infor{
+    width: 90%;
+    float: right;
+    margin-top:0.3rem;
+}
+.infor i{
+    font-size: 0.4rem;
+    color: #888;
+    margin-top: 0.3rem;
+    float: right;
+
+}
+.infor span{
+    width: 90%;
+    font-size: 0.3rem;
+    color: #fff;
+    float: left;
+}
+.infor p{
+    color: #999;
+    font-size: 0.26rem;
+    margin-top: 1.5rem;
+}
+.ept{
+    width: 100%;
+    height: 0.1rem;
+    margin: 0 auto;
+    background: rgb(236, 236, 236);
+}
+/* 地址开始 */
+.shop-site{
+    width: 100%;
+    overflow: hidden;
+    padding: 0.2rem 0.2rem;
+    box-sizing: border-box;
+    color: #000;
+}.person{
+     width: 100%;
+     line-height: 0.4rem;
+ }
+.person p{
+    float: left;
+    margin-right: 0.3rem;
+    font-weight: 600;
+}
+.person p:nth-child(3){
+    padding: 0 0.1rem;
+    background: #ff9201;
+    font-weight: 400;
+    color: #fff;
+}
+.address{
+    font-size: 0.26rem;
+    margin-top: 0.8rem;
+    clear: both;
+}
+.address::before{
+    content: "\e608";
+    font-family: iconfont,sans-serif;
+    font-size: 0.3rem;
+}
+/* 联系客服开始 */
+.store{
+    width: 100%;
+    overflow: hidden;
+}
+.store-top{
+    width: 100%;
+    height: 0.8rem;
+    font-size: 0.3rem;
+    line-height: 0.8rem;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(202, 202, 202, 0.4);
+}
+.store-top::before{
+    content: "\e60f";
+    font-size: 0.4rem;
+    font-family: iconfont,sans-serif;
+    line-height: 0.8rem;
+    float: left;
+}
+.orange{
+    width: 100%;
+    padding: 0.2rem 0.2rem;
+    box-sizing: border-box;
+}
+.orange img{
+    width: 1.6rem;
+    height: 1.6rem;
+    float: left;
+}
+.ora-right{
+    width: 70%;
+    float: right;
+    font-size: 0.3rem;
+    margin: 0.2rem 0 0;
+}
+.fresh{
+    width: 70%;
+    float: left;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.ora-mon{
+    width: 30%;
+    float: right;
+}
+.ora-mon p{
+    margin-left: 0.3rem;
+    float: right;
+}
+.ora-mon p:last-child{
+    color:#999;
+}
+.after{
+    font-size: 0.3rem;
+    color: #fff;
+    padding: 0.1rem 0.2rem;
+    background: #ff9201;
+    float: right;
+    margin: 0.5rem 0 0.2rem;
+    border-radius: 0.1rem;
+}
+.goods-box{
+    margin-bottom: 0.2rem;
+}
+/* 商品金额开始 */
+.sum{
+    width: 100%;
+}
+.sum ul li{
+    width: 100%;
+    height: 0.9rem;
+    padding: 0 0.2rem;
+    border-bottom: 1px solid #f6f6f4;
+    box-sizing: border-box;
+    line-height: 0.7rem;
+}
+.sum ul li span:nth-child(1){
+    font-size: 0.3rem;
+    float: left;
+    color: #999;
+}
+.sum ul li span:nth-child(2){
+    font-size: 0.3rem;
+    float: right;
+    color: #555;
+}
+.no-col{
+    color: #555 !important;
+}
+.no-coll{
+    color: #ff9201 !important;
+}
+/* 编号开始 */
+.serial{
+    width: 100%;
+    padding: 0.3rem 0.2rem;
+    box-sizing: border-box;
+}
+.serial p{
+    font-size: 0.28rem;
+    margin: 0.1rem 0;
+    color: #333;
+}
+#rmarks{
+  border: none;
+}
+
